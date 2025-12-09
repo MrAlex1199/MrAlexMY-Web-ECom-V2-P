@@ -1,4 +1,4 @@
-# Project-MY-Web-Ecommerce
+# Project-MY-Web-Ecom-Uni
 
 ## How to run this project
 
@@ -34,4 +34,4 @@ To run your application on another computer with docker, follow these steps:
 
 
 
-# MrAlexMY-Web-ECom-V2-Test
+# MY-Web-ECom-V2-P
