@@ -1,0 +1,28 @@
+version: "3.8"
+services:
+  frontend:
+    image: alex17171777/myecomweb-frontend:latest
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+  backend:
+    image: alex17171777/myecomweb-backend:latest
+    ports:
+      - "3001:3001"
+    depends_on:
+      - mongo
+    environment:
+      MONGO: mongodb://mongo:27017/userDB
+      PORT: 3001
+
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:

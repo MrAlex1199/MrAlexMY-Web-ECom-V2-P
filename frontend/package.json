@@ -1,0 +1,76 @@
+{
+  "name": "my-web-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@headlessui/react": "^1.7.18",
+    "@heroicons/react": "^2.1.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.9.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "buffer": "^6.0.3",
+    "chart.js": "^4.4.7",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.1.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "flowbite": "^2.3.0",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.474.0",
+    "md5": "^2.3.0",
+    "mongoose": "^8.12.1",
+    "mongoose-encryption": "^2.1.2",
+    "mongoose-findorcreate": "^4.0.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.2",
+    "npm": "^11.5.2",
+    "papaparse": "^5.5.2",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^18.2.0",
+    "react-flip-clock": "^1.0.4",
+    "react-hot-toast": "^2.6.0",
+    "react-icons": "^5.4.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "^5.0.1",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start --proxy http://localhost:3001"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-private-methods": "^7.24.1",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "autoprefixer": "^10.4.18",
+    "http-proxy-middleware": "^3.0.0",
+    "postcss": "^8.4.35",
+    "svgo": "^2.8.0",
+    "tailwindcss": "^3.4.1"
+  }
+}
